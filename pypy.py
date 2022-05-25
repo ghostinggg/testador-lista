@@ -17,8 +17,9 @@ if (resposta in respostaSim):
 
 else:
    if (resposta in respostaNao):          
-      print('\nEu te odeio muito')      
+      print('\nEu te odeio muito')
+      casellato.pop(1)
+      casellato.append('Muito Burro')
       print('\nLista de coisas que o Casellato é: ' + str(casellato[0]) + ', '
-       + str(casellato[2]) + ', ' + str(casellato[3]) + ", Muito Burro.")
-
+       + str(casellato[1]) + ', ' + str(casellato[2]) + ', ' + str(casellato[3]), end='.')
     
